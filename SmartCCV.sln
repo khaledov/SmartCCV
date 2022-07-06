@@ -7,13 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{056E3A91-E41
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0A4158D3-9FCC-4A85-B6FA-17551F01706F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCCV.Engine", "src\SmartCCV.Engine\SmartCCV.Engine.csproj", "{1F5308BC-4EDF-465A-85F5-95BF612D4B06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartCCV.Engine", "src\SmartCCV.Engine\SmartCCV.Engine.csproj", "{1F5308BC-4EDF-465A-85F5-95BF612D4B06}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "extensions", "extensions", "{CED53B08-0964-4F58-9C57-8CA07E13E5E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCCV.Extension.Autofac", "extensions\SmartCCV.Extension.Autofac\SmartCCV.Extension.Autofac.csproj", "{4CA89765-D12B-4D56-BF64-3653C3DB7F55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartCCV.Extension.Autofac", "extensions\SmartCCV.Extension.Autofac\SmartCCV.Extension.Autofac.csproj", "{4CA89765-D12B-4D56-BF64-3653C3DB7F55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCCV.Extension.StructureMap", "extensions\SmartCCV.Extension.StructureMap\SmartCCV.Extension.StructureMap.csproj", "{8A815DFE-C9E1-44EF-A0FC-BEC739B82548}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartCCV.Extension.StructureMap", "extensions\SmartCCV.Extension.StructureMap\SmartCCV.Extension.StructureMap.csproj", "{8A815DFE-C9E1-44EF-A0FC-BEC739B82548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCCV.SharedKernel", "src\SmartCCV.SharedKernel\SmartCCV.SharedKernel.csproj", "{2A13DB15-1723-44E9-B9D1-85B50EE6E6CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8A815DFE-C9E1-44EF-A0FC-BEC739B82548}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A815DFE-C9E1-44EF-A0FC-BEC739B82548}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A815DFE-C9E1-44EF-A0FC-BEC739B82548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A13DB15-1723-44E9-B9D1-85B50EE6E6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A13DB15-1723-44E9-B9D1-85B50EE6E6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A13DB15-1723-44E9-B9D1-85B50EE6E6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A13DB15-1723-44E9-B9D1-85B50EE6E6CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{1F5308BC-4EDF-465A-85F5-95BF612D4B06} = {056E3A91-E411-4010-836B-B506D5DE1841}
 		{4CA89765-D12B-4D56-BF64-3653C3DB7F55} = {CED53B08-0964-4F58-9C57-8CA07E13E5E0}
 		{8A815DFE-C9E1-44EF-A0FC-BEC739B82548} = {CED53B08-0964-4F58-9C57-8CA07E13E5E0}
+		{2A13DB15-1723-44E9-B9D1-85B50EE6E6CC} = {056E3A91-E411-4010-836B-B506D5DE1841}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BAFD5BB9-AE95-47FA-BB6C-146CB9A8593F}
