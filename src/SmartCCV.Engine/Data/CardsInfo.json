@@ -1,0 +1,97 @@
+{
+
+  "JCB": {
+    "Rules": [
+      {
+        "Lengths": [ 16 ],
+        "Prefixes": [ "35" ]
+      },
+      {
+        "Lengths": [ 15 ],
+        "Prefixes": [ "1800", "2131" ]
+      }
+    ],
+    "CVV": 4,
+    "CardBrandName": "JCB"
+  },
+  "Amex": {
+    "Rules": [
+      {
+        "Lengths": [ 15 ],
+        "Prefixes": [ "34", "37" ]
+      }
+    ],
+    "CVV": 4,
+    "CardBrandName": "AMEX"
+  },
+  "Diners": {
+    "Rules": [
+      {
+        "Lengths": [ 14, 16 ],
+        "Prefixes": [ "300", "301", "302", "303", "304", "305", "3095", "36", "38" ]
+      }
+    ],
+    "CVV": 3,
+    "CardBrandName": "Diners Club"
+  },
+  "Mastercard": {
+    "Rules": [
+      {
+        "Lengths": [ 16 ],
+        "Prefixes": [ "51", "52", "53", "54", "55" ]
+      }
+    ],
+    "CVV": 3,
+    "CardBrandName": "Mastercard"
+  },
+  "Visa": {
+    "Rules": [
+      {
+        "Lengths": [ 13, 16, 17, 18, 19 ],
+        "Prefixes": [ "4" ]
+      }
+    ],
+    "CVV": 3,
+    "CardBrandName": "VISA"
+  },
+  "Maestro": {
+    "Rules": [
+      {
+        "Lengths": [ 12, 13, 14, 15, 16, 17, 18, 19 ],
+        "Prefixes": [ "5018", "5020", "5038", "6304", "6759", "6761", "6762", "6763" ]
+      }
+    ],
+    "CVV": 3,
+    "CardBrandName": "UK Maestro"
+  },
+  "SOLO": {
+    "Rules": [
+      {
+        "Lengths": [ 16, 18, 19 ],
+        "Prefixes": [ "6767" ]
+      }
+    ],
+    "CVV": 3,
+    "CardBrandName": "SOLO"
+  },
+  "Visa_Debit": {
+    "Rules": [
+      {
+        "Lengths": [ 13, 16, 17, 18, 19 ],
+        "Prefixes": [ "4" ]
+      }
+    ],
+    "CVV": 3,
+    "CardBrandName": "VISA Debit"
+  },
+  "Visa_Electron": {
+    "Rules": [
+      {
+        "Lengths": [ 16, 17, 18, 19 ],
+        "Prefixes": [ "4" ]
+      }
+    ],
+    "CVV": 3,
+    "CardBrandName": "VISA"
+  }
+}
